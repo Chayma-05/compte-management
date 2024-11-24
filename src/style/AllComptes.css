@@ -1,0 +1,53 @@
+.table-container {
+    padding: 20px;
+    margin: 20px 0; 
+    background-color: #f4f7fc;
+    border-radius: 8px;
+    width: 100%; 
+}
+
+.compte-table {
+    width: 100%; 
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.compte-table th,
+.compte-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.compte-table th {
+    background-color: black;
+    color: white;
+}
+.compte-table tr:hover {
+    background-color: #f2f2f2;
+}
+.compte-table .delete-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.compte-table .delete-button:hover {
+    background-color: #e60000;
+}
+
+.compte-table .delete-button:focus {
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .delete-button {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}

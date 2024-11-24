@@ -1,0 +1,108 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  
+  form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  form input,
+  form select,
+  form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form input[type="number"],
+  form input[type="date"] {
+    font-size: 14px;
+  }
+  
+  form select {
+    font-size: 14px;
+  }
+  
+  form button {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: black;
+  }
+
+  .table-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .compte-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .compte-table th,
+  .compte-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .compte-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .compte-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .compte-table td {
+    font-size: 14px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      margin-top: 20px;
+    }
+  
+    form {
+      width: 90%;
+    }
+  
+    .compte-table {
+      width: 100%;
+      font-size: 12px;
+    }
+  
+    .compte-table th,
+    .compte-table td {
+      padding: 10px;
+    }
+  }
+  
